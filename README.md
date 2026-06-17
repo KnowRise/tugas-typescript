@@ -5,8 +5,8 @@ Struktur folder:
 ├── README.md
 ├── package-lock.json
 ├── package.json
-├── src
-│   ├── tugas
+├── src/
+│   ├── tugas/
 ├── tsconfig.json
 ├──.gitignore
 ```
