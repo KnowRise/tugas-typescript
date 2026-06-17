@@ -5,4 +5,11 @@
  * 3. Tampilkan nilai `warnaPilihan` menggunakan console.log.
  */
 
-// Tulis kode di sini
+enum Warna {
+    MERAH = "MERAH",
+    HIJAU = "HIJAU",
+    BIRU = "BIRU",
+}
+
+const warnaPilihan: Warna = Warna.HIJAU;
+console.log(warnaPilihan);

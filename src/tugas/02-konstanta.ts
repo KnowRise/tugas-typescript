@@ -6,4 +6,7 @@
  * 4. Tampilkan kedua konstanta menggunakan console.log.
  */
 
-// Tulis kode di bawah ini
+const PHI: number = 3.14;
+const NAMA_APLIKASI: string = "MyApp";
+
+console.log(PHI, NAMA_APLIKASI);

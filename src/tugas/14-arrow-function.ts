@@ -6,4 +6,15 @@
  * 3. Panggil `cetakProfil` dengan nama "Rina" dan tanpa umur, lalu dengan umur 20.
  */
 
-// Tulis kode di sini
+const kali = (a: number, b: number): number => a * b;
+
+function cetakProfil(nama: string, umur: number = 0): string {
+    if (umur > 0) {
+        return `Nama: ${nama}, Umur: ${umur}`;
+    }
+    return `Nama: ${nama}`;
+}
+
+console.log(kali(4, 5));
+console.log(cetakProfil("Rina"));
+console.log(cetakProfil("Rina", 20));

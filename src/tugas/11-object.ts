@@ -7,4 +7,14 @@
  * 4. Tampilkan semua key dan value menggunakan for...in loop.
  */
 
-// Tulis kode di sini
+const hargaBuah: Record<string, number> = {
+    apel: 5000,
+    mangga: 7000,
+    jeruk: 4000,
+};
+
+hargaBuah["pisang"] = 3000;
+
+for (const buah in hargaBuah) {
+    console.log(`${buah}: ${hargaBuah[buah]}`);
+}

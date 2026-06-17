@@ -7,4 +7,10 @@
  * 5. Tampilkan semua variabel tersebut dengan console.log.
  */
 
-// Tulis kode di bawah ini
+const namaDepan: string = "Budi";
+const usia: number = 25;
+const isMahasiswa: boolean = true;
+let nilai: number | undefined;
+
+console.log(namaDepan, usia, isMahasiswa, nilai);
+

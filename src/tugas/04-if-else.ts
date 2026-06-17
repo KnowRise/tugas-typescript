@@ -11,7 +11,17 @@
  */
 
 function nilaiGrade(nilai: number): string {
-    // Tulis kode di sini
+    if (nilai >= 90) {
+        return "A";
+    } else if (nilai >= 80) {
+        return "B";
+    } else if (nilai >= 70) {
+        return "C";
+    } else if (nilai >= 60) {
+        return "D";
+    }
+
+    return "E";
 }
 
 const gradeBudi = nilaiGrade(85);

@@ -9,6 +9,8 @@
 const angka: number[] = [1, 2, 3, 4, 5];
 let total: number = 0;
 
-// Tulis for loop di sini
+for (let i = 0; i < angka.length; i++) {
+    total += angka[i];
+}
 
 console.log(total);

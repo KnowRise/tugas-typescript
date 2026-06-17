@@ -8,4 +8,7 @@
 
 let counter: number = 1;
 
-// Tulis while loop di sini
+while (counter <= 5) {
+    console.log("Iterasi ke-", counter);
+    counter++;
+}

@@ -6,4 +6,13 @@
  * 3. Panggil kedua fungsi.
  */
 
-// Tulis kode di sini
+function sapa(nama: string): void {
+    console.log(`Halo, ${nama}!`);
+}
+
+function tambah(a: number, b: number): number {
+    return a + b;
+}
+
+sapa("Budi");
+console.log(tambah(5, 7));

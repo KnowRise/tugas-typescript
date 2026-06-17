@@ -6,4 +6,9 @@
  * 4. Tampilkan masing-masing variabel.
  */
 
-// Tulis kode di sini
+const user: [string, number, boolean] = ["Andi", 22, true];
+const [nama, umur, isActive] = user;
+
+console.log(nama);
+console.log(umur);
+console.log(isActive);

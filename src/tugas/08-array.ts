@@ -8,4 +8,7 @@
 
 const numbers: number[] = [3, 7, 10, 15, 20];
 
-// Tulis kode di sini
+const genap: number[] = numbers.filter((n) => n % 2 === 0);
+const dikaliDua: number[] = genap.map((n) => n * 2);
+
+console.log(dikaliDua);
