@@ -1,15 +1,14 @@
 # tugas-typescript
 
-To install dependencies:
-
-```bash
-bun install
+Struktur folder:
+```
+├── README.md
+├── package-lock.json
+├── package.json
+├── src
+│   ├── tugas
+├── tsconfig.json
+├──.gitignore
 ```
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.3.14. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+Semua tugas teradapat di folder `src/tugas`. Silakan buka folder tersebut untuk melihat semua tugas yang telah dibuat.
